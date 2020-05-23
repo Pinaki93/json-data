@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "name": "Americano",
+    "category": "Coffee",
+    "price": 10
+  },
+  {
+    "id": 2,
+    "name": "Caffè Latte",
+    "category": "Coffee",
+    "price": 10
+  },
+  {
+    "id": 3,
+    "name": "Cappuccino",
+    "category": "Coffee",
+    "price": 15
+  },
+  {
+    "id": 4,
+    "name": "Espresso",
+    "category": "Coffee",
+    "price": 10
+  },
+  {
+    "id": 5,
+    "name": "Irish Coffee",
+    "category": "Coffee",
+    "price": 10
+  },
+  {
+    "id": 6,
+    "name": "Bacon Sandwich",
+    "category": "Sandwiches",
+    "price": 20
+  },
+  {
+    "id": 7,
+    "name": "Cheese Sandwich",
+    "category": "Sandwiches",
+    "price": 20
+  },
+  {
+    "id": 8,
+    "name": "Chicken Sandwich",
+    "category": "Sandwiches",
+    "price": 20
+  },
+  {
+    "id": 9,
+    "name": "Pork Sandwich",
+    "category": "Sandwiches",
+    "price": 20
+  },
+  {
+    "id": 10,
+    "name": "Tuna Sandwich",
+    "category": "Sandwiches",
+    "price": 20
+  },
+  {
+    "id": 11,
+    "name": "French Fries",
+    "category": "Quick Bite",
+    "price": 10
+  },
+  {
+    "id": 12,
+    "name": "Garlic Bread",
+    "category": "Quick Bite",
+    "price": 10
+  },
+  {
+    "id": 13,
+    "name": "Bacon Burger",
+    "category": "Burgers",
+    "price": 20
+  },
+  {
+    "id": 14,
+    "name": "Cheese Burger",
+    "category": "Burgers",
+    "price": 20
+  },
+  {
+    "id": 15,
+    "name": "Chicken Burger",
+    "category": "Burgers",
+    "price": 20
+  },
+  {
+    "id": 16,
+    "name": "Pork Burger",
+    "category": "Burgers",
+    "price": 20
+  },
+  {
+    "id": 17,
+    "name": "Tuna Burger",
+    "category": "Burgers",
+    "price": 20
+  }
+]
