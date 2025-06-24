@@ -1,0 +1,22 @@
+[
+  { "name": "Green Tea", "time": 120 },
+  { "name": "Black Tea", "time": 240 },
+  { "name": "White Tea", "time": 180 },
+  { "name": "Oolong Tea", "time": 210 },
+  { "name": "Herbal Tea", "time": 300 },
+  { "name": "Chai", "time": 300 },
+  { "name": "Matcha", "time": 60 },
+  { "name": "Pu-erh Tea", "time": 180 },
+  { "name": "Yellow Tea", "time": 150 },
+  { "name": "Rooibos", "time": 300 },
+  { "name": "Earl Grey", "time": 240 },
+  { "name": "Darjeeling", "time": 180 },
+  { "name": "Assam", "time": 240 },
+  { "name": "Jasmine Green Tea", "time": 150 },
+  { "name": "Peppermint Tea", "time": 300 },
+  { "name": "Chamomile Tea", "time": 300 },
+  { "name": "Hibiscus Tea", "time": 300 },
+  { "name": "Lemongrass Tea", "time": 300 },
+  { "name": "Ginger Tea", "time": 300 },
+  { "name": "Yerba Mate", "time": 300 }
+]
