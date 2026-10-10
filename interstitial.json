@@ -1,0 +1,142 @@
+
+{
+  "id": "interstitial_earth_001",
+  "version": 1,
+  "type": "fullscreen_interstitial",
+  "enabled": true,
+  "priority": 1,
+  "theme": {
+    "backgroundColor": "#070D1B",
+    "statusBarColor": "#070D1B",
+    "navigationBarColor": "#070D1B",
+    "textColor": "#FFFFFF",
+    "accentColor": "#69B8FF",
+    "fontFamily": "sans-serif",
+    "darkMode": true
+  },
+  "layout": {
+    "orientation": "portrait",
+    "fullscreen": true,
+    "edgeToEdge": true,
+    "respectSafeArea": true,
+    "horizontalPadding": 24,
+    "verticalPadding": 32,
+    "contentAlignment": "center",
+    "scrollable": true
+  },
+  "closeButton": {
+    "enabled": true,
+    "icon": "x",
+    "position": "top_right",
+    "size": 24,
+    "touchTargetSize": 48,
+    "color": "#FFFFFF",
+    "backgroundColor": "#334155",
+    "cornerRadius": 24,
+    "visibleAfterMs": 0,
+    "accessibilityLabel": "Close interstitial"
+  },
+  "content": {
+    "badge": {
+      "text": "EXPLORE THE UNIVERSE",
+      "textColor": "#69B8FF",
+      "backgroundColor": "#17304D",
+      "cornerRadius": 20,
+      "paddingHorizontal": 16,
+      "paddingVertical": 8
+    },
+    "heroImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Earth_seen_from_Apollo_17.jpg?width=960",
+      "contentType": "image/jpeg",
+      "width": "100%",
+      "height": 320,
+      "contentScale": "fit",
+      "alignment": "center",
+      "cornerRadius": 16,
+      "backgroundColor": "#070D1B",
+      "alt": "The Blue Marble, Earth photographed by the Apollo 17 crew"
+    },
+    "headline": {
+      "text": "One Planet.\nInfinite Possibilities.",
+      "fontSize": 34,
+      "fontWeight": "bold",
+      "textAlign": "center",
+      "lineHeight": 42,
+      "color": "#FFFFFF",
+      "marginTop": 24
+    },
+    "description": {
+      "text": "On December 7, 1972, the Apollo 17 crew captured one of the most iconic photographs in human history. Discover the beauty of our home from space.",
+      "fontSize": 16,
+      "lineHeight": 24,
+      "textAlign": "center",
+      "color": "#CBD5E1",
+      "marginTop": 16
+    },
+    "primaryButton": {
+      "id": "explore_earth",
+      "text": "Explore Earth",
+      "enabled": true,
+      "height": 56,
+      "width": "100%",
+      "backgroundColor": "#3B82F6",
+      "textColor": "#FFFFFF",
+      "fontSize": 17,
+      "fontWeight": "semibold",
+      "cornerRadius": 16,
+      "marginTop": 32,
+      "action": {
+        "type": "open_url",
+        "url": "https://en.wikipedia.org/wiki/Earth",
+        "dismissInterstitial": true
+      }
+    },
+    "secondaryButton": {
+      "id": "maybe_later",
+      "text": "Maybe Later",
+      "enabled": true,
+      "height": 48,
+      "width": "100%",
+      "backgroundColor": "transparent",
+      "textColor": "#94A3B8",
+      "fontSize": 15,
+      "marginTop": 12,
+      "action": {
+        "type": "dismiss"
+      }
+    },
+    "footer": {
+      "text": "Image: NASA / Apollo 17 • Public Domain",
+      "fontSize": 11,
+      "textColor": "#64748B",
+      "textAlign": "center",
+      "marginTop": 24,
+      "link": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg"
+    }
+  },
+  "behavior": {
+    "showAnimation": "fade_in",
+    "dismissAnimation": "fade_out",
+    "animationDurationMs": 250,
+    "dismissOnBackPress": true,
+    "dismissOnOutsideTap": false,
+    "autoDismissAfterMs": null,
+    "maxDisplayCountPerSession": 1,
+    "minimumIntervalHours": 24,
+    "imageLoading": {
+      "showPlaceholder": true,
+      "placeholderColor": "#152238",
+      "cacheEnabled": true,
+      "timeoutMs": 10000
+    }
+  },
+  "analytics": {
+    "enabled": true,
+    "events": {
+      "impression": "interstitial_earth_impression",
+      "primaryClick": "interstitial_earth_explore",
+      "secondaryClick": "interstitial_earth_skip",
+      "dismiss": "interstitial_earth_dismiss"
+    }
+  }
+}
